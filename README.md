@@ -8,7 +8,7 @@ ANRC (Autonomous Nitro RC)
 Itamar Eliakim <br>
 
 ### Goal ###
-Got an old RC car platform that wasnt in use for around ~10 years, isnpired by the course of "Self-Driving Car" by Udacity tought it was a good idea to implement some of the algorithms for localization, lane tracking, steering etc. and creating a tiny nitro self-driving car.
+Got an old RC car platform that wasnt in use for around ~10 years, inspired by the course "Self-Driving Car"(Udacity) tought it was a good idea to implement some of the algorithms for localization, lane tracking, steering etc. and creating a tiny nitro self-driving car.
 
 ### Hardware ###
 * Nitro RC Car Platform
