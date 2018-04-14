@@ -2,7 +2,7 @@ ANRC (Autonomous Nitro RC)
 ------------------------
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
-<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="200" width=auto>
+<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="400" width=auto>
 </p>
 
 
