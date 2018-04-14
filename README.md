@@ -19,7 +19,7 @@ Got an old RC car platform that wasnt in use for around ~10 years. Project goal 
 * Lipo 7.4v 2200mah
 * LM2596 - 5V 3A Buck Regulator
 * AMS1117 - 5V to 3.3V (Powering XV11 DC Motor)
-* For DIY Electric starter - High torque DC motor
+* For DIY Electric starter - High torque DC motor (took mine from an old neato)
 
 
 ### Tools/Connectors Needed ###
