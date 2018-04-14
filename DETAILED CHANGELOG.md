@@ -11,7 +11,7 @@ Getting the RC Car ready to go after ~10 years, engine compression seems to be g
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/CrankShaft.png?raw=true" height="400" width=auto>
 </p>
-Next, designing the parts, I’ve separated this to three major units:     
+Next, designing the parts, I’ve separated this to three major units:<br>
 Rear Unit: Webcam, Lights(Later).  
 Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiver.   
 Front Unit: Battery, XV11 Lidar, Orange Pi.  
