@@ -2,31 +2,33 @@ ANRC (Autonomous Nitro RC)
 Detailed Changelog
 ------------------------
 <p align="center">
-<img src="https://s9.postimg.org/gkqk92qtr/IMG_4757.png" height="400" width=auto>
+<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
 </p>
 
 ### Week 1 - (4.7.2018) ###
 ### Mechanical ###
-Getting the RC Car ready to go after ~10 years, engine compression seems to be good, carburetor is completely cleaned. Found out the car didn’t start because of a small pin between the crankshaft and the backplate, when pulling the cord, it rotated only the shaft at the backplate. Instead of ordering a new spring/pull mechanism (didn’t have the patience) just put some Teflon tape between the crankshaft and the small pin, it worked perfectly.
+Getting the RC Car ready to go after ~10 years, engine compression seems to be good, carburetor is completely cleaned. Found out the car didn’t start because of a small pin between the crankshaft and the backplate, when pulling the cord, it rotated only the shaft at the backplate. Instead of ordering a new spring/pull mechanism (didn’t have the patience) just put some Teflon tape between the crankshaft and the small pin, it worked perfectly.  
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/CrankShaft.png?raw=true" height="400" width=auto>
-Next, designing the parts, I’ve separated this to three major units: 
-Rear Unit: Webcam, Lights(Later).
-Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiver. 
-Front Unit: Battery, XV11 Lidar, Orange Pi.
+Next, designing the parts, I’ve separated this to three major units:   
+Rear Unit: Webcam, Lights(Later).  
+Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiver.   
+Front Unit: Battery, XV11 Lidar, Orange Pi.  
 
 ### Hardware ###
-Rear Unit:
-1x Logitech C170
+Rear Unit:  
+1x Logitech C170  
 <p align="center"> <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Rear_Unit.jpg?raw=true" height="400" width=auto></p>
 
-Center Unit:
-Main power supply – LIPO 7.4 2200mah, several components at this design works at 5V/3.3, will use two different regulators:
-1xLM2596 – 5V 3A Buck converter
-1xAMS1117 – 3.3V 800mA Buck converter
+Center Unit:  
+Main power supply – LIPO 7.4 2200mah, several components at this design works at 5V/3.3, will use two different regulators:  
+1xLM2596 – 5V 3A Buck converter  
+1xAMS1117 – 3.3V 800mA Buck converter  
 <p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true
 " height="400" width=auto>
 <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto>
-
+ 
+| PIN | Details  |
+| ---- | -------------  |
 | 1 | 5V from power regulator, pin 10  |
 | 2 | GND, pin 11 |
 | 3 | 5V - Orange PI|
@@ -39,9 +41,9 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 </p>
 
 Front Unit:
-1x Orange Pi Lite(Allwinner H3)
-1x XV11 Neato Lidar
-1x STM32F103C8
+1x Orange Pi Lite(Allwinner H3)  
+1x XV11 Neato Lidar  
+1x STM32F103C8  
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true
 " height="400" width=auto>
