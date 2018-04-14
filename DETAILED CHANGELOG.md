@@ -11,10 +11,10 @@ Getting the RC Car ready to go after ~10 years, engine compression seems to be g
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/CrankShaft.png?raw=true" height="400" width=auto>
 </p>
-Next, designing the parts, I’ve separated this to three major units:
-Rear Unit: Webcam, Lights(Later).
-Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiver.
-Front Unit: Battery, XV11 Lidar, Orange Pi.
+Next, designing the parts, I’ve separated this to three major units:<br>
+Rear Unit: Webcam, Lights(Later).<br>
+Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiver.<br>
+Front Unit: Battery, XV11 Lidar, Orange Pi.<br><br>
 
 ### Hardware ###
 Rear Unit:  
@@ -25,9 +25,7 @@ Center Unit:
 Main power supply – LIPO 7.4 2200mah, several components at this design works at 5V/3.3, will use two different regulators:  
 1xLM2596 – 5V 3A Buck converter  
 1xAMS1117 – 3.3V 800mA Buck converter  
-<p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true
-" height="400" width=auto>
-<img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto></p>
+<p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true" height="400" width=auto><img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto></p>
 | PIN  | Details  |
 |---|---|
 | 1 | 5V from power regulator, pin 10  |
