@@ -17,11 +17,11 @@ Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiv
 Front Unit: Battery, XV11 Lidar, Orange Pi.<br><br>
 
 ### Hardware ###
-Rear Unit:  
+**Rear Unit:**  
 1x Logitech C170  
 <p align="center"> <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Rear_Unit.jpg?raw=true" height="400" width=auto></p>
 
-Center Unit:  
+**Center Unit:**  
 Main power supply – LIPO 7.4 2200mah, several components at this design works at 5V/3.3, will use two different regulators:  
 1xLM2596 – 5V 3A Buck converter  
 1xAMS1117 – 3.3V 800mA Buck converter  
@@ -39,7 +39,7 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 | 8 | 7.4V 2200mah LIPO battery |
 | 9 |  GND |
 
-Front Unit:  
+**Front Unit:**    
 1x Orange Pi Lite(Allwinner H3)  
 1x XV11 Neato Lidar  
 1x STM32F103C8  
