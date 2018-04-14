@@ -28,7 +28,6 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 <p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true
 " height="400" width=auto>
 <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto></p>
-<p align="center">
 | PIN | Details  |
 | ---- | -------------  |
 | 1 | 5V from power regulator, pin 10  |
@@ -40,7 +39,6 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 | 7 | 3.3V output |
 | 8 | 7.4V 2200mah LIPO battery |
 | 9 |  GND |
-</p>
 
 Front Unit:
 1x Orange Pi Lite(Allwinner H3)  
