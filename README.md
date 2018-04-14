@@ -4,10 +4,8 @@ ANRC (Autonomous Nitro RC)
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="400" width=auto>
 </p>
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![](https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true)  |  ![](https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true)
 
+![alt-text-1](https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true "title-1") ![alt-text-2](https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true "title-2")
 
 ### Contacts ###
 Itamar Eliakim <br>
