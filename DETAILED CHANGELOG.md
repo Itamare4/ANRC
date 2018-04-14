@@ -26,6 +26,7 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 1xLM2596 – 5V 3A Buck converter  
 1xAMS1117 – 3.3V 800mA Buck converter  
 <p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true" height="400" width=auto><img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto></p>
+
 | PIN  | Details  |
 |---|---|
 | 1 | 5V from power regulator, pin 10  |
