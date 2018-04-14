@@ -39,7 +39,7 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 | 8 | 7.4V 2200mah LIPO battery |
 | 9 |  GND |
 
-Front Unit:
+Front Unit:  
 1x Orange Pi Lite(Allwinner H3)  
 1x XV11 Neato Lidar  
 1x STM32F103C8  
