@@ -1,11 +1,9 @@
 ANRC (Autonomous Nitro RC)
 ------------------------
 <p align="center">
-<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
-<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="400" width=auto>
+<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="300" width=auto>
+<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="300" width=auto>
 </p>
-
-![alt-text-1](https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true "title-1") ![alt-text-2](https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true "title-2")
 
 ### Contacts ###
 Itamar Eliakim <br>
@@ -17,7 +15,8 @@ Got an old RC car platform that wasnt in use for around ~10 years. Project goal 
 * Nitro RC Car Platform
 * Neato XV-11 Lidar
 * Logitech C170
-* Orange Pi Lite (AllWinner H3), might change later to MinnowBoard/BeagleBone
+* Orange Pi Lite (AllWinner H3), might change later to BeagleBone
+* STM32F103C8
 * FlySky i6
 * Lipo 7.4v 2200mah
 * LM2596 - 5V 3A Buck Regulator
