@@ -8,14 +8,26 @@ ANRC (Autonomous Nitro RC)
 Itamar Eliakim <br>
 
 ### Goal ###
-Got an old RC car platform that wasnt in use for around ~10 years, inspired by the course "Self-Driving Car"(Udacity) tought it was a good idea to implement some of the algorithms for localization, lane tracking, steering etc. and creating a tiny nitro self-driving car.
+Got an old RC car platform that wasnt in use for around ~10 years. Project goal is to implement algorithms for localization, lane tracking, steering etc. and creating a tiny nitro self-driving car.
 
 ### Hardware ###
 * Nitro RC Car Platform
 * Neato XV-11 Lidar
 * Logitech C170
-* Orange Pi Lite (AllWinner H3), might change later to BeagleBone
+* Orange Pi Lite (AllWinner H3), might change later to MinnowBoard/BeagleBone
 * FlySky i6
+* Lipo 7.4v 2200mah
+* LM2596 - 5V 3A Buck Regulator
+* AMS1117 - 5V to 3.3V (Powering XV11 DC Motor)
+* For DIY Electric starter - High torque DC motor
+
+
+### Tools/Connectors Needed ###
+* 3D printer
+* crimp tool
+* XT60 Connectors
+* PCB Breadboard
+* Soldering Station
 
 ### Software ###
 * Ubuntu 14.04 LTS
