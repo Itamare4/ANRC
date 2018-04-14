@@ -1,4 +1,4 @@
-ANRC (Autonomous Nitro RC)
+ANRC (Autonomous Nitro RC)    
 Detailed Changelog
 ------------------------
 <p align="center">
@@ -7,8 +7,10 @@ Detailed Changelog
 
 ### Week 1 - (4.7.2018) ###
 ### Mechanical ###
-Getting the RC Car ready to go after ~10 years, engine compression seems to be good, carburetor is completely cleaned. Found out the car didn’t start because of a small pin between the crankshaft and the backplate, when pulling the cord, it rotated only the shaft at the backplate. Instead of ordering a new spring/pull mechanism (didn’t have the patience) just put some Teflon tape between the crankshaft and the small pin, it worked perfectly.  
+Getting the RC Car ready to go after ~10 years, engine compression seems to be good, carburetor is completely cleaned. Found out the car didn’t start because of a small pin between the crankshaft and the backplate, when pulling the cord, it rotated only the shaft at the backplate. Instead of ordering a new spring/pull mechanism (didn’t have the patience) just put some Teflon tape between the crankshaft and the small pin, it worked perfectly.    
+<p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/CrankShaft.png?raw=true" height="400" width=auto>
+</p>
 Next, designing the parts, I’ve separated this to three major units:   
 Rear Unit: Webcam, Lights(Later).  
 Center Unit: Power Regulators (5V and 3.3V), Power Distribution Board, RC Receiver.   
@@ -25,8 +27,8 @@ Main power supply – LIPO 7.4 2200mah, several components at this design works 
 1xAMS1117 – 3.3V 800mA Buck converter  
 <p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true
 " height="400" width=auto>
-<img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto>
- 
+<img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto></p>
+<p align="center">
 | PIN | Details  |
 | ---- | -------------  |
 | 1 | 5V from power regulator, pin 10  |
@@ -45,8 +47,7 @@ Front Unit:
 1x XV11 Neato Lidar  
 1x STM32F103C8  
 <p align="center">
-<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true
-" height="400" width=auto>
+<img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="400" width=auto>
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Front_Unit.png?raw=true" height="400" width=auto>
 </p>
 
