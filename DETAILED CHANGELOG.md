@@ -4,8 +4,17 @@ Detailed Changelog
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
 </p>
+### Week 2 ###
+I had to record some bagfiles to start working on the lane tracking, auto steering of the car. To make things easier i thought of connecting the Flysky RC to a simple python code and by toggle the switch on the remote start and pause the rosbag record process.
+Connecting the Flysky RC to OrangePi sounds like an easy task, had some issues with sampling the PWM signal from the remote at frequency high enough to determine the switch state(This can be done easly on Raspberry Pi using pigpio), if you have some ADC to I2C you can do it easly, something like ADS1115, or just playing with RC circuit.
+I didn't have enough time to spend on it, so a simple Arduino Nano was perfect for this task. Routing the SWD on Flysky to CH6 on the reciever and connecting it to PIN 6 on the Arduino.
+The python code for reading values for Arduino and starting the record sometimes doesnt end cleanly(will be fixed later), need to run this on the bags - 
+```
+rosbag reindex *.bag.active
+rosbag fix *.bag.active repaired.bag
+```
 
-### Week 1 - (4.7.2018) ###
+### Week 1 ###
 ### Mechanical ###
 Getting the RC Car ready to go after ~10 years, engine compression seems to be good, carburetor is completely cleaned. Found out the car didn’t start because of a small pin between the crankshaft and the backplate, when pulling the cord, it rotated only the shaft at the backplate. Instead of ordering a new spring/pull mechanism (didn’t have the patience) just put some Teflon tape between the crankshaft and the small pin, it worked perfectly.    
 <p align="center">
