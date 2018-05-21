@@ -4,6 +4,7 @@ Detailed Changelog
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
 </p>
+
 ### Week 2 ###
 I had to record some bagfiles to start working on the lane tracking, auto steering of the car. To make things easier i thought of connecting the Flysky RC to a simple python code and by toggle the switch on the remote start and pause the rosbag record process.
 Connecting the Flysky RC to OrangePi sounds like an easy task, had some issues with sampling the PWM signal from the remote at frequency high enough to determine the switch state(This can be done easly on Raspberry Pi using pigpio), if you have some ADC to I2C you can do it easly, something like ADS1115, or just playing with RC circuit.
