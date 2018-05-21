@@ -7,8 +7,8 @@ Detailed Changelog
 
 ### Week 2 ###
 I had to record some bagfiles to start working on the lane tracking, auto steering of the car. To make things easier i thought of connecting the Flysky RC to a simple python code and by toggle the switch on the remote start and pause the rosbag record process.
-Connecting the Flysky RC to OrangePi sounds like an easy task, had some issues with sampling the PWM signal from the remote at frequency high enough to determine the switch state(This can be done easly on Raspberry Pi using pigpio), if you have some ADC to I2C you can do it easly, something like ADS1115, or just playing with RC circuit.
-I didn't have enough time to spend on it, so a simple Arduino Nano was perfect for this task. Routing the SWD on Flysky to CH6 on the reciever and connecting it to PIN 6 on the Arduino.
+Connecting the Flysky RC to OrangePi sounds like an easy task, had some issues with sampling the PWM signal from the remote at frequency high enough to determine the switch state(This can be done easly on Raspberry Pi using pigpio), if you have some ADC to I2C you can do it easly, something like ADS1115, or just playing with RC circuit.<br>
+I didn't have enough time to spend on it, so a simple Arduino Nano was perfect for this task. Routing the SWD on Flysky to CH6 on the reciever and connecting it to PIN 6 on the Arduino.<br>
 The python code for reading values for Arduino and starting the record sometimes doesnt end cleanly(will be fixed later), need to run this on the bags - 
 ```
 rosbag reindex *.bag.active
