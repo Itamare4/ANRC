@@ -3,6 +3,7 @@ ANRC (Autonomous Nitro RC)
 <p align="center">
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="300" width=auto>
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/IMG_4762.JPG?raw=true" height="300" width=auto>
+<img src="https://cdn.hackaday.io/images/5953261527262523526.png" height="300" width=auto>
 </p>
 
 ### Contacts ###
