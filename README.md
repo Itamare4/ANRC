@@ -114,7 +114,14 @@ Front Unit: Battery, XV11 Lidar, Orange Pi.<br><br>
 Main power supply – LIPO 7.4 2200mah, several components at this design works at 5V/3.3, will use two different regulators:  
 1xLM2596 – 5V 3A Buck converter  
 1xAMS1117 – 3.3V 800mA Buck converter  
-<p align="center"> <img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Power_Distribution_Board.png?raw=true" height="400" width=auto><img src=" https://github.com/Itamare4/ANRC/blob/master/MD_Images/Regulator.png?raw=true" height="400" width=auto></p>
+<p align="center">
+<img src="https://cdn.hackaday.io/images/9512821526818357513.png" height="400" width=auto>
+</p>
+
+<p align="center">
+<img src="https://cdn.hackaday.io/images/6598211526818363078.png" height="400" width=auto>
+</p>
+
 
 | PIN  | Details  |
 |---|---|
