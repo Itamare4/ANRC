@@ -5,7 +5,36 @@ Detailed Changelog
 <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Car_Zoom.jpg?raw=true" height="400" width=auto>
 </p>
 
-### Week 2 ###
+### #3 ###
+Wrote a ROS package in python for processing the image from the Logitech C170 (Code available on GitHub). In most example codes available online it's easier to detect the lane by filtering out the lane colors(white, yellow), here i did it in a narrow street so i didn't have many colors to filter out.
+<p align="center">
+<img src="https://cdn.hackaday.io/images/9654471527261893932.jpg" height="400" width=auto>
+</p>
+
+Based on the great tutorial of Galen Ballew:
+https://medium.com/@galen.ballew/opencv-lanedetection-419361364fc0
+
+I had to do many modification so it will work without filtering the yellow and white colors, I've used the following steps:
+
+1. Convert to HSV
+2. Filter out background colors.
+3. Calculating Sobel magnitude.
+4. Flood Fill.
+5. Split to left and right image.
+5. Manually find contours.
+6. Draw a line for the left and right edge.
+
+I got the following result:
+<p align="center">
+<img src="https://cdn.hackaday.io/images/3545391527262176709.png" height="400" width=auto>
+</p>
+
+Running Yolo object detection, with VOC weights on the image(offline), we got the following result - 
+<p align="center">
+<img src="https://cdn.hackaday.io/images/5953261527262523526.png" height="400" width=auto>
+</p>
+
+### #2 ###
 I had to record some bagfiles to start working on the lane tracking, auto steering of the car. To make things easier i thought of connecting the Flysky RC to a simple python code and by toggle the switch on the remote start and pause the rosbag record process.
 Connecting the Flysky RC to OrangePi sounds like an easy task, had some issues with sampling the PWM signal from the remote at frequency high enough to determine the switch state(This can be done easly on Raspberry Pi using pigpio), if you have some ADC to I2C you can do it easly, something like ADS1115, or just playing with RC circuit.<br>
 I didn't have enough time to spend on it, so a simple Arduino Nano was perfect for this task. Routing the SWD on Flysky to CH6 on the reciever and connecting it to PIN 6 on the Arduino.<br>
@@ -15,7 +44,7 @@ rosbag reindex *.bag.active
 rosbag fix *.bag.active repaired.bag
 ```
 
-### Week 1 ###
+### #1 ###
 ### Mechanical ###
 Getting the RC Car ready to go after ~10 years, engine compression seems to be good, carburetor is completely cleaned. Found out the car didn’t start because of a small pin between the crankshaft and the backplate, when pulling the cord, it rotated only the shaft at the backplate. Instead of ordering a new spring/pull mechanism (didn’t have the patience) just put some Teflon tape between the crankshaft and the small pin, it worked perfectly.    
 <p align="center">
