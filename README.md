@@ -33,8 +33,8 @@ Got an old RC car platform that wasnt in use for around ~10 years. Project goal 
 * Soldering Station
 
 ### Software ###
-* Ubuntu 14.04 LTS
-* ROS Indigo
+* Ubuntu 16.04 LTS
+* ROS Kinetic
 
 ### Experiments ###
 
