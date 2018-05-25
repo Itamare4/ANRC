@@ -111,7 +111,8 @@ Front Unit: Battery, XV11 Lidar, Orange Pi.<br><br>
 <p align="center"> <img src="https://github.com/Itamare4/ANRC/blob/master/MD_Images/Rear_Unit.jpg?raw=true" height="400" width=auto></p>
 
 **Center Unit:**  
-Main power supply – LIPO 7.4 2200mah, several components at this design works at 5V/3.3, will use two different regulators:  
+Main power supply – LIPO 7.4 2200mah <br>
+several components at this design works at 5V/3.3, will use two different regulators:<br>  
 1xLM2596 – 5V 3A Buck converter  
 1xAMS1117 – 3.3V 800mA Buck converter  
 <p align="center">
